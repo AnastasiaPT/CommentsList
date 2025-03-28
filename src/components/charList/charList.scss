@@ -1,0 +1,44 @@
+@import '../../style/variables.scss';
+
+.char {
+    &__content {
+        margin-top: 50px;
+        width: 50%;
+    }
+    
+    &__item {
+        width: 90%;
+        height: 140px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, .25);
+        padding: 15px;
+        cursor: pointer;
+        transition: 0.3s transform;
+        &_selected {
+            height: 140px;
+            box-shadow: 0 5px 20px $blue;
+            transform: translateY(-3px);
+        }
+	&_selected {
+            height: 140px;
+            box-shadow: 0 5px 20px $blue;
+            transform: translateY(-3px);
+        }
+    }
+    &__name {
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 29px;
+        text-transform: uppercase;
+        color: #120336;
+    }
+    &__author {
+        font-size: 17px;
+        line-height: 29px;
+        color: #120336;
+    }
+    &__description {
+        font-size: 15px;
+        line-height: 29px;
+        color: #120336;
+    }
+}

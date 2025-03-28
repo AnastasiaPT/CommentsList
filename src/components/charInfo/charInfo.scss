@@ -1,0 +1,54 @@
+@import '../../style/variables.scss';
+
+.char {
+    &__info {
+        padding: 25px;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+        position: fixed;
+        right: 10px;
+        top: 200px;
+        width: 45%;
+        min-height: 300px;
+        z-index: 5;
+        background-color: #fff;
+        
+        &-name {
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 20px;
+            text-transform: uppercase;
+        }
+        
+    }
+    &__item_info{
+       margin: 10px;
+    }
+    &__comments {
+        font-size: 14px;
+        line-height: 18px;
+        color: #120336;
+    }
+    &__tesis {
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 20px;
+        color: #120336;
+    }
+    &__descr{
+        font-size: 18px;
+        margin: 10px;
+        line-height: 20px;
+        color: #120336;
+    }
+    
+}
+
+.button_more {
+    width: 70px;
+    height: 20px;
+    text-align: center;
+    font-size: 14px;
+    transition: 0.3s transform;
+    cursor: pointer;
+    margin-top:20px;
+    }
